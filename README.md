@@ -7,7 +7,7 @@ Similarly, the Subcategory Dataframe contains 24 unique subcategory_id and subca
 \
 These two dataframes are exported as a csv file, located within the Resources directory, labelled category.csv and subcategory.csv respectively.
 ## Creation of the Campaign DataFrame
-Also found within the file 'ETL_Mini_Project_BFisher.ipynb', the crowdfunding.xlsx was extracted and transformed to create a DataFrame with the following columns:\
+Also found within the file 'ETL_Mini_Project_BFisher.ipynb', the crowdfunding.xlsx was extracted and transformed to create a DataFrame with the following columns:
 * cf_id
 * contact_id
 * company_name
@@ -33,5 +33,8 @@ This dataframe was againn exported as a csv file labelling contacts.csv
 ## Creation of Crowdfunding Database
 Within posgreSQL, a database called crowdfunding_db was created. Within this database, the four csv files created above (contacts, category, subcategory, and campaign) were imported into tables. This schema for this can be found within the file 'crowdfunding_db_schema.sql'. The outputs of the schema and ERD can be found within the 'crowdfunding_db Outputs' directory.
 ## Running
+For this code to run successfully, python is required to be installed along with the pandas and jupyter libraries. One method to install these programs is to download Anaconda - link below. To run this code, open the file within Jupyter, ensure that the input files are directed correctly and run!\
+Anaconda install: https://docs.anaconda.com/free/anaconda/install/\
 To run the engineering and analysis, a program to read in SQL is required. One example of a program is PostgreSQL, which can be downloaded with the link below and select the relevant operating system.\
+
 PostgreSQL download: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
